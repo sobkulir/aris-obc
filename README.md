@@ -1,5 +1,12 @@
 # Aris OBC Zephyr project
 
+## Requirements
+To compile the code, Docker is required. I suggest using the [convenience script](https://docs.docker.com/engine/install/ubuntu/#install-using-the-convenience-script) to install it:
+```sh
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+```
+
 ## Setup
 ```sh
 mkdir zephyrproject
