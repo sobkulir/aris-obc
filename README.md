@@ -29,7 +29,7 @@ west update
 
 # Build the application
 west build -b qemu_cortex_m3 app
-west build -t qemu_cortex_m3 app
+west build -t run
 ```
 
 The structure of Zephyr projects is a bit involved. For example there's a custom tool from Zephyr, `west`, for
